@@ -12,7 +12,7 @@ data = pd.read_csv("netflix.csv")  # Actualiza con el nombre correcto de tu arch
 # Verificamos si los datos se cargaron correctamente
 print(data[['title', 'type', 'country']])
 
-# Agrupamos los datos por tipo (películas o series) y contamos cuántos hay de cada tipo
+# Agrupamos los datos por tipo (películas o series) y contamos cuántos hay en de cada tipo
 type_counts = data['type'].value_counts()
 
 # Graficamos los datos con un gráfico de líneas
