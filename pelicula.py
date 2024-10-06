@@ -23,5 +23,5 @@ plt.xlabel('Tipo')
 plt.ylabel('Cantidad')
 plt.title('Distribución de películas y series')
 
-# Mostramos el gráfico
+# Mostramos el gráfico en la salida
 plt.show()
